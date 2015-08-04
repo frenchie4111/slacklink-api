@@ -24,9 +24,6 @@
     } );
 
     var models_to_delete = [
-        'AlphaLog',
-        'Token',
-        'User'
     ];
 
     var _clearModels = function() {
