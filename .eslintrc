@@ -1,0 +1,47 @@
+{
+    'env': {
+        'node': true
+    },
+    'ecmaFeatures': {
+        'arrowFunctions': true,
+        'blockBindings': true,
+        'classes': false,
+        'defaultParams': true,
+        'destructuring': true,
+        'forOf': false,
+        'modules': true,
+        'objectLiteralComputedProperties': true,
+        'objectLiteralShorthandMethods': true,
+        'objectLiteralShorthandProperties': true,
+        'spread': true,
+        'superInFunctions': true,
+        'templateStrings': true,
+        'unicodeCodePointEscapes': true,
+        'jsx': true,
+        'generators': true
+    },
+    'rules': {
+        'indent': [ 2, 4 ],
+        'quotes': [ 2, 'single' ],
+        'key-spacing': [ 2, { 'beforeColon': false, 'afterColon': true } ],
+        'space-in-brackets': [ 2, 'always' ],
+        'space-in-parens': [ 2, 'always' ],
+        'no-process-exit': [ 0 ], // We use process.exit when google health check tells us to
+        'comma-dangle': [ 2, 'never' ],
+        'camelcase': [ 0 ], // Underscores :-)
+        'strict': [ 2, 'never' ],
+        'consistent-this': [ 2, '_this' ],
+        'no-underscore-dangle': [ 0 ],
+        'no-mixed-requires': [ 2, true ],
+        'curly': [ 2, 'multi-line' ]
+    },
+    'globals': {
+        'beforeEach': true,
+        'afterEach': true,
+        'before': true,
+        'after': true,
+        'it': true,
+        'describe': true,
+        'test_util': true
+    }
+}

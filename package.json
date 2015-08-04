@@ -1,0 +1,38 @@
+{
+  "name": "dor-web",
+  "version": "1.0.0",
+  "description": "Slacklink web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "test": "node --harmony ./node_modules/.bin/_mocha tests/"
+  },
+  "author": "Mike Lyons <mdl0394@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "address-validator": "^0.1.4",
+    "bcrypt-then": "^1.0.0",
+    "body-parser": "^1.13.1",
+    "chai": "^3.0.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.0",
+    "load-from-directory": "^1.0.2",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5",
+    "mocha-directory": "^1.0.0",
+    "mocha-runnable-generators": "^1.0.2",
+    "mysql": "^2.7.0",
+    "q": "^1.4.1",
+    "request": "^2.58.0",
+    "sequelize": "^3.3.2",
+    "sequelize-cli": "^1.7.0",
+    "sequelize-test-fixtures": "^1.0.0",
+    "trust-rest-then": "^1.0.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0"
+  },
+  "engine": "node 0.12.4"
+}
